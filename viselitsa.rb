@@ -1,8 +1,6 @@
 # encoding: utf-8
-#
 # Популярная детская игра
 # https://ru.wikipedia.org/wiki/Виселица_(игра)
-#
 # Этот код необходим только при использовании русских букв на Windows
 if Gem.win_platform?
   Encoding.default_external = Encoding.find(Encoding.locale_charmap)
