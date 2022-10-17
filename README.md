@@ -16,7 +16,7 @@
 
     1. In the command line in the folder with the main.rbfile, type: bundle exec ruby main.rb;
     2. Double-click on the specified file;
-    3. Enjoy  :wink:
+    3. Enjoy 😉
 
 The rules of the game are as follows: The player is asked to guess the word using the interface for typing letters, if the player guessed the letter, it appears in the word at its location, in case of an error, the player loses 1 attempt, the wrong letter is displayed in the interface.
 
@@ -27,5 +27,7 @@ To expand the functionality of the game, it is possible to add new words by perf
     Open the date folder and the file in it words.txt : ./data/words.txt
     Add the words you found to the end of the file, the words must be indicated in uppercase.
     Save and close the file words.txt
+
+![Play](12011-b091ffdad40dc8504b88167b37ba1cb6ef8b232f.jpg)
 
 
