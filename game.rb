@@ -1,7 +1,3 @@
-# encoding: utf-8
-#
-# Основной класс игры Game. Хранит состояние игры и предоставляет функции для
-# развития игры (ввод новых букв, подсчет кол-ва ошибок и т. п.).
 class Game
   def initialize(slovo)
     @letters = get_letters(slovo)
