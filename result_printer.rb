@@ -1,5 +1,3 @@
-# encoding: utf-8
-#
 # Класс ResultPrinter, печатающий состояние и результаты игры.
 class ResultPrinter
   def initialize
@@ -13,9 +11,7 @@ class ResultPrinter
 
       # Проверку наличия файла можно заменить на блок begin-rescue, при этом
       # ловить только конкретную ошибку обращения к файловой системе.
-      #
-      # https://ruby-doc.org/core-2.4.0/SystemCallError.html
-      begin
+        begin
         file = File.new(file_name, "r:UTF-8")
         @status_image << file.read
         file.close
